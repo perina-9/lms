@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SalesDB is your go-to platform for managing sales, tracking performance, and growing your business." />
+  <meta name="keywords" content="SalesDB, sales management, business analytics, CRM, performance tracking" />
+  <meta name="author" content="Your Company Name" />
+  <title>SalesDB | Smart Sales Management</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#home" accesskey="h">Home</a></li>
+        <li><a href="#features" accesskey="f">Features</a></li>
+        <li><a href="#about" accesskey="a">About</a></li>
+        <li><a href="#contact" accesskey="c">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="home">
+      <h1>Welcome to SalesDB</h1>
+      <p>Your intelligent platform for managing and optimizing sales performance.</p>
+    </section>
+
+    <section id="features">
+      <h2>Key Features</h2>
+      <article>
+        <h3>Real-Time Analytics</h3>
+        <p>Track sales trends and performance metrics with live dashboards.</p>
+      </article>
+      <article>
+        <h3>Customer Management</h3>
+        <p>Organize customer data and interactions for better engagement.</p>
+      </article>
+      <article>
+        <h3>Automated Reporting</h3>
+        <p>Generate insightful reports with just a few clicks.</p>
+      </article>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>SalesDB was built to empower businesses with smarter sales tools and data-driven insights.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="/submit" method="POST" aria-label="Contact form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 SalesDB. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+        <li><a href="/terms-of-service">Terms of Service</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
